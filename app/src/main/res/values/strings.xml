@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Nutricia</string>
+    <string name="subtitle">Your Calorie Companion</string>
+    <string name="Welcome">Welcome to nutricia!</string>
+    <string name="Login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <string name="email">E-mail:</string>
+    <string name="password">Password</string>
+    <string name="finishsetup">Get Started
+    </string>
+    <string name="nametext">Whats your name</string>
+    <string name="agetext">Date of Birth</string>
+    <string name="dobbtn">Set Date</string>
+    <string name="gendertext">Gender</string>
+    <string name="heighttext">Height (in cm)</string>
+    <string name="howmuchtext">By how much?</string>
+    <string name="weighttext">Weight (in Kg)</string>
+    <string name="radiomale">Male</string>
+    <string name="radiofemale">Female</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="weightgoaltext">What is your weight goal?</string>
+    <string name="average_cal_intake">Average Daily Calories:</string>
+    <string name="max_cal_intake">Maximum Calorie Balance:</string>
+    <string name="min_cal_intake">Minimum Calorie Balance:</string>
+    <string name="rec">Tips for next month:</string>
+    <string name="report_history">Report History</string>
+    <string name="set_next_month">New Month Objectives</string>
+
+
+    <string-array name="WeightGoalOptions">
+        <item>Lose</item>
+        <item>Maintain</item>
+        <item>Gain</item>
+    </string-array>
+
+    <string-array name="ObjectiveValues">
+        <item>1 Kg</item>
+        <item>2 Kg</item>
+        <item>3 Kg</item>
+        <item>4 Kg</item>
+    </string-array>
+</resources>

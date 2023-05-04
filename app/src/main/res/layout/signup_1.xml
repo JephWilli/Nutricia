@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp1"
+    android:background="@drawable/gradient_background">
+    >
+
+    <TextView
+        android:id="@+id/Gender"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="@string/gendertext"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroupGender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="149dp"
+        android:layout_height="32dp"
+        android:text="@string/Welcome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/nametext"
+        app:layout_constraintBottom_toTopOf="@+id/editTextName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textWelcome" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="476dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textAge"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/agetext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="251dp"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667">
+
+        <RadioButton
+            android:id="@+id/MaleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:text="@string/radiomale" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left" />
+
+        <RadioButton
+            android:id="@+id/FemaleButton"
+            android:layout_width="126dp"
+            android:layout_height="75dp"
+            android:text="@string/radiofemale" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/toSignUp2From1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="96dp"
+        android:text="@string/next"
+        android:background="@drawable/login_btns"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/dobbtn"
+        android:layout_width="40dp"
+        android:layout_height="42dp"
+        android:background="@drawable/calendar_logo"
+        android:backgroundTint="@color/black"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/Gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAge"
+        app:layout_constraintVertical_bias="0.275"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="131dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/dobbtn"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAge" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

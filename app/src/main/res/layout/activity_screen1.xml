@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen1"
+    android:background="@drawable/gradient_background">
+
+
+    <TextView
+        android:id="@+id/AppTitle"
+        android:layout_width="143dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="cursive"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Subtitle"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="140dp"
+        android:fontFamily="@font/actor"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/subtitle"
+        app:layout_constraintBottom_toTopOf="@+id/SignUpButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AppTitle" />
+
+    <Button
+        android:id="@+id/LoginButtonToLoginScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="18dp"
+        android:background="@drawable/login_btns"
+        android:text="@string/Login"
+        app:layout_constraintBaseline_toBaselineOf="@+id/SignUpButton"
+        app:layout_constraintEnd_toStartOf="@+id/SignUpButton"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="302dp"
+        android:background="@drawable/login_btns"
+        android:text="@string/signUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LoginButtonToLoginScreen"
+        app:layout_constraintTop_toBottomOf="@+id/Subtitle"
+        app:strokeColor="#F30F0F" />
+</androidx.constraintlayout.widget.ConstraintLayout>

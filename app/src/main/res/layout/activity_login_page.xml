@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="88dp"
+        android:layout_height="39dp"
+        android:text="@string/email"
+        app:layout_constraintBottom_toTopOf="@+id/textPassword"
+        app:layout_constraintEnd_toStartOf="@+id/editTextEmailLogin"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="116dp"
+        android:text="@string/password"
+        app:layout_constraintBottom_toTopOf="@+id/LoginButton"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPasswordLogin"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextEmailLogin"
+        android:layout_width="201dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextPasswordLogin"
+        android:layout_width="204dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/textEmail"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:text="@string/Login"
+        android:background="@drawable/login_btns"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

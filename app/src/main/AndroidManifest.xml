@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutrilogin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NutriLogin">
+        <activity
+            android:name=".NextMonthObjectives"
+            android:exported="false" />
+        <activity
+            android:name=".Report"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Dinner"
+            android:exported="false" />
+        <activity
+            android:name=".Lunch"
+            android:exported="false" />
+        <activity
+            android:name=".Breakfast"
+            android:exported="false" />
+        <activity
+            android:name=".IntenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ModerateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MinimalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Foods"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreen"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp4"
+            android:exported="true" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp1"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp3"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp2"
+            android:exported="false" />
+        <activity
+            android:name=".Screen1"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

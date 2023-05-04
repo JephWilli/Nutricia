@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lunch"
+    android:background="@drawable/mainmenugradient">
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/forest_green"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp">
+
+                <TextView
+                    android:id="@+id/food_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Food"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/activity_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Exercises"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/report_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Report"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Jollof rice and Chicken"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/jollof_rice_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="275"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                    android:layout_width="213dp"
+                                    android:layout_height="93dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_10" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_jollof_rice"
+                                android:layout_width="wrap_content"
+                                android:layout_height="48dp"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:minHeight="48dp"
+                                android:text="Add">
+
+                            </Button>
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Fufu and soup"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/fufu_and_soup_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="335"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView13"
+                                    android:layout_width="215dp"
+                                    android:layout_height="93dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_11" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_fufu_and_soup"
+                                android:layout_width="wrap_content"
+                                android:layout_height="48dp"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:minHeight="48dp"
+                                android:text="Add">
+
+                            </Button>
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Banku and Tilapia"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/banku_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="248"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView14"
+                                    android:layout_width="206dp"
+                                    android:layout_height="93dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_12" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+                            <Button
+                                android:id="@+id/add_banku"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Add">
+
+                            </Button>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Tilapia"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/Tilapia_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="100"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView15"
+                                    android:layout_width="225dp"
+                                    android:layout_height="101dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_13" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_tilapia"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Add">
+
+                            </Button>
+
+
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Waakye"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/waakye_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="390"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView19"
+                                    android:layout_width="212dp"
+                                    android:layout_height="96dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_6" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_waakye"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Add">
+
+                            </Button>
+
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Palawa Sauce"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/palawa_sauce_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="440"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView18"
+                                    android:layout_width="206dp"
+                                    android:layout_height="93dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_14" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_palawa_sauce"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Add">
+
+                            </Button>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Boiled yam"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/boiled_yam_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="157"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView20"
+                                    android:layout_width="260dp"
+                                    android:layout_height="93dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_15" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_boiled_yam"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Add">
+
+                            </Button>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Yam porridge"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/yam_pottage_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="304"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView21"
+                                    android:layout_width="222dp"
+                                    android:layout_height="92dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_16" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_yam_pottage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="Add">
+
+                            </Button>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_margin="15dp"
+                        app:cardCornerRadius="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:text="Boiled plantain and egg stew"
+                                android:textSize="20dp">
+
+                            </TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <TextView
+                                    android:id="@+id/boiled_platain_calval"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/poppins_bold"
+                                    android:text="292"
+                                    android:textSize="50dp">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:id="@+id/imageView22"
+                                    android:layout_width="220dp"
+                                    android:layout_height="92dp"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/img_17" />
+
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/poppins_light"
+                                android:text="Kcal"
+                                android:textColor="@color/grey"
+                                android:textSize="16dp">
+
+                            </TextView>
+
+                            <Button
+                                android:id="@+id/add_boiled_plantain"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="130dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:minHeight="48dp"
+                                android:text="Add">
+
+                            </Button>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

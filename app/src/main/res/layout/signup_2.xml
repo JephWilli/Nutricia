@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp2"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/TextWeight"
+        android:layout_width="121dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/weighttext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="236dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/TextHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/TextWeight"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/TextHeight"
+        android:layout_width="121dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/heighttext"
+        app:layout_constraintBottom_toTopOf="@+id/editTextHeight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="236dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="316dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/toSignUp3From2"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:text="@string/next"
+        android:background="@drawable/login_btns"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.817"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <Button
+        android:id="@+id/toSIgnUp1From2"
+        android:layout_width="132dp"
+        android:layout_height="64dp"
+        android:text="@string/previous"
+        android:background="@drawable/login_btns"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+</androidx.constraintlayout.widget.ConstraintLayout>

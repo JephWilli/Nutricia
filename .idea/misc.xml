@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/breakfastbackground.xml" value="0.2703125" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/calendar_logo.xml" value="0.2703125" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/login_btns.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/main_background.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/mainmenugradient.xml" value="0.2703125" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/physicalactivitygradient.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/drawable/status_bar.xml" value="0.1" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/font/actor.xml" value="0.24153846153846154" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/font/poppins.xml" value="0.1" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/font/poppins_bold.xml" value="0.1" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/font/poppins_light.xml" value="0.1" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/font/poppins_medium.xml" value="0.1" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_breakfast.xml" value="0.264" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_dinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_foods.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_intense.xml" value="0.2" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_login_page.xml" value="0.536" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_login_screen2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_login_screen3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_lunch.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_main_screen.xml" value="0.264" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_meal_type_selection.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_minimal.xml" value="0.2793017456359102" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_moderate.xml" value="0.2" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_next_month_objectives.xml" value="0.2" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_physical.xml" value="0.2" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_report.xml" value="0.264" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/activity_screen1.xml" value="0.4" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/signup_1.xml" value="0.4" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/signup_2.xml" value="0.264" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/signup_3.xml" value="0.264" />
+        <entry key="..\:/Users/William Jeph/Desktop/NutriLogin/app/src/main/res/layout/signup_4.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348186779855",
+    "project_id": "nutrilogin",
+    "storage_bucket": "nutrilogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348186779855:android:f38df95054870abf4357ba",
+        "android_client_info": {
+          "package_name": "com.example.nutrilogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348186779855-b2fohkv5phokl5a9fd4kaa0vf5m3qhsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlHdYm7oo_WG5_G7g-zDK6FEzX0jdcrdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348186779855-b2fohkv5phokl5a9fd4kaa0vf5m3qhsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

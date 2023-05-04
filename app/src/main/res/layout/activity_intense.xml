@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntenseActivity"
+    android:background="@drawable/mainmenugradient">
+0
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/forest_green"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/status_bar" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp">
+
+                <TextView
+                    android:id="@+id/food_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Food"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/activity_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Activity"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/report_tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="Report"
+                    android:textColor="@color/white"
+                    android:textSize="18dp">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="396dp"
+                    android:layout_height="224dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="Jogging"
+                            android:textSize="20dp">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/joggingValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="580"
+                                android:textSize="50dp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:id="@+id/imageView38"
+                                android:layout_width="195dp"
+                                android:layout_height="92dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/img_30" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Kcal"
+                            android:textColor="@color/grey"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <Button
+                            android:id="@+id/deductJogging"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="120dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="Add">
+
+                        </Button>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="396dp"
+                    android:layout_height="237dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="Playing Football"
+                            android:textSize="20dp">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/footballValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="610"
+                                android:textSize="50dp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:id="@+id/imageView39"
+                                android:layout_width="213dp"
+                                android:layout_height="92dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/img_31" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Kcal"
+                            android:textColor="@color/grey"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <Button
+                            android:id="@+id/deductFootball"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="120dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="Add">
+
+                        </Button>
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="391dp"
+                    android:layout_height="235dp"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="16dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="Swimming"
+                            android:textSize="20dp">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp">
+
+                            <TextView
+                                android:id="@+id/swimmingValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="620"
+                                android:textSize="50dp">
+
+                            </TextView>
+
+                            <ImageView
+                                android:id="@+id/imageView40"
+                                android:layout_width="235dp"
+                                android:layout_height="92dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/img_32" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="16dp"
+                            android:fontFamily="@font/poppins_light"
+                            android:text="Kcal"
+                            android:textColor="@color/grey"
+                            android:textSize="16dp">
+
+                        </TextView>
+
+                        <Button
+                            android:id="@+id/deductSwimming"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="90dp"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="Add">
+
+                        </Button>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
